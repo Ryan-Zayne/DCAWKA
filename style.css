@@ -1,0 +1,20 @@
+.rating-css {
+	color: blue;
+	font-size: 18px;
+	font-family: sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 20px;
+}
+
+.rating-css input {
+	display: none;
+	font-size: 50px;
+	text-shadow: #838383;
+	cursor: pointer;
+}
+
+.rating-css input:checked + label ~ label {
+	color: #838383;
+
+}
